@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <h1 align="center" >Voici ma Page Perso</h1>
+        
+            <table >
+                <tr>
+                    <td>
+                        <p ><u>Mon avatar</u></p>
+                    </td>
+                  
+                </tr>
+                <tr> 
+                    <td></td>
+                    <td><img src="avatar.img" alt="avatar"></td>
+                </tr>
+                <tr>
+                    <td>Nom</td>
+                </tr>
+                <tr><td></td>
+                <td>Maissene</td>
+                </tr>
+                <tr><td>Prenom</td></tr>
+                <tr><td>Zairi</td></tr>
+                <tr><td>Age</td></tr>
+                <tr><td></td>
+                <td>19</td></tr>
+                <tr><td>Diplomes</td></tr>
+                <tr><td></td>
+                <td>Bac</td></tr>
+                <tr><td></td><td></td><td>2011</td></tr>
+                <tr>
+                    <td></td>
+                    <td>Licence</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>2014</td>
+                </tr>
+                <tr><td>Hobbies</td></tr>
+                <tr>
+                   <td> <ol type="I">
+                        <li>hobbie1<ol type="a"><li>desc1</li>
+                        <li>desc2</li></ol></li>
+                        <li>hobbie2</li>
+                        <li>hobbie3</li>
+                    </ol>
+                    </td>
+    
+                </tr>
+    
+        </table>
+    </fieldset>
+    <table border=1 align="center">
+        <tr>
+            <th rowspan=2 colspan=2>Population</th>
+            <th colspan=3>Moyenne</th>
+      </tr>
+      <tr>
+          <th>Hauteur</th>
+          <th>Esperance de vie</th>
+          <th>Poids Moyenne</th>
+      </tr>
+      <tr align="center">
+          <th rowspan=2>Sexe</th>
+          <th>Masculin</th>
+          <td>1.78</td>
+          <td>70</td>
+          <td>75</td>
+      </tr>
+      <tr align="center">
+          <th>Feminin</th>
+          <td>1.70</td>
+          <td>80</td>
+          <td>55</td>
+      </tr>
+      </table>
+    <h1 align="center">Inscription en licence</h1>
+    <form action="insat.html">
+    <fieldset align="center">
+        
+        <legend>Informations personnelles</legend>
+        <label >
+            Votre nom
+            <input type="text">
+        </label> <br>
+        <label >
+            Votre prénom
+            <input type="text">
+        </label> <br>
+        <label >
+            Votre age
+            <input type="number">
+        </label> <br>
+        <label >
+            Votre adresse
+          <textarea name="adresse" id="" cols="30" rows="10"></textarea>
+        </label><br>
+        <label >
+            mot de passe
+            <input type="text" required>
+        </label><br>
+        <label>Retapez votre mot de passe</label>
+        <input type="text" required>
+    </fieldset>
+    <fieldset align="center">
+        <legend>Gestion de groupes et des options</legend>
+        <label >Votre groupe
+            <input type="checkbox">G1
+            <input type="checkbox">G2
+            <input type="checkbox">G3
+            <input type="checkbox">G4
+        </label> <br>
+        <label >Numero carte etudiant
+            <input type="text">
+        </label> <br>
+        <label>Choisissez les options que vous desirez
+            <select name="Options" >
+                <option value="1">HTML</option>
+                <option value="2">CSS</option>
+                <option value="3">JS</option>
+                <option value="4">React</option>
+            </select>
+
+        </label><br>
+        <label >
+            E-mail
+            <input type="email">
+        </label><br>
+        <label>
+            URL
+            <input type="url">
+        </label><br>
+        <label >
+            Date Naissance
+            <input type="date">
+        </label><br>
+        <label >
+            Code
+            <input type="text" pattern="[I][N][S][A][T][0-9]{4}"> 
+
+        </label>
+
+    </fieldset>
+    <div align="center">
+    <input type="submit" value="valider"> 
+    <input type="reset" value="effacer"></div>
+    </form>
+</body>
+</html>
